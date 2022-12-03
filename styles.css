@@ -1,5 +1,7 @@
 body {
 	background: black;
+	font-family: "Handlee", cursive;
+	font-size: 14px;
 }
 
 .postcard {
@@ -30,12 +32,14 @@ body {
 .body-left {
 	color: black;
 }
-.body-right input[type="text"] {
+.postcard-body input[type="text"] {
 	padding: 5px;
 	color: gray;
 	border-bottom: 1px solid gray;
 	border: none;
 	line-height: 1px;
+	margin-bottom: 10px;
+	text-decoration-line: underline;
 }
 input {
 	border: none;
